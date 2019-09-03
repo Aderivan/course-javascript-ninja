@@ -44,7 +44,7 @@ var teams = ['Sport', 'Santa Cruz', 'Náutico', 'Salgueiro', 'Central'];
 
 
 function showTeamPosition(position) {
-   while(position <= 5) {
+   if((position <= 5) && (position > 0)) {
     return 'O time que está em '+ (position) + 'º lugar é o '+ (teams[position - 1]) +'.';
    }
    return 'Não temos a informação do time que está nessa posição.'

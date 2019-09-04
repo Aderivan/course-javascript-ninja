@@ -1,4 +1,4 @@
-# Desafio da semana $7
+# Desafio da semana #7
 ```js
 /*
 Crie um array com 5 items (tipos variados).
